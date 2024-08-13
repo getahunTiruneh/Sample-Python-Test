@@ -1,0 +1,3 @@
+# requerments
+pandas
+numpy
