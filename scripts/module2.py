@@ -14,4 +14,5 @@ def check_missing_values(df):
 # Main function for testing (optional)
 if __name__ == "__main__":
     # Load the data into the DataFrame
-    df = load_data('../data/heart.csv')
+    # df = load_data('../data/heart.csv')
+    print(os.getcwd())
