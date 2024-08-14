@@ -1,3 +1,5 @@
 # requerments
 pandas
 numpy
+matplotlib
+seaborn
