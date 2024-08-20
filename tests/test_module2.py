@@ -5,7 +5,7 @@ import numpy as np
 import sys
 sys.path.insert(0, '/CBE_Doc/AI Training/Sample-Python-Test/scripts')  
 
-from module2 import data_analysis
+from scripts.module2 import data_analysis
 
 class Testmodule2(unittest.TestCase):
     def setUp(self):
