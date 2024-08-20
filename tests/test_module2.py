@@ -3,7 +3,7 @@ from unittest.mock import patch
 import pandas as pd
 import numpy as np
 import sys
-sys.path.insert(0, '/CBE_Doc/AI Training/Sample-Python-Test/scripts')  # Adjust the path as needed
+sys.path.insert(0, '/CBE_Doc/AI Training/Sample-Python-Test/scripts')  
 
 from module2 import data_analysis
 
