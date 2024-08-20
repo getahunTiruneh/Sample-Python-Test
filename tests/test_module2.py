@@ -39,10 +39,10 @@ class Testmodule2(unittest.TestCase):
 
         # Assert
         pd.testing.assert_series_equal(result, expected_output)
-    @patch('module2.sns.heatmap')
-    @patch('module2.plt.figure')
-    @patch('module2.plt.title')
-    @patch('module2.plt.show')
+    @patch('scripts.module2.sns.heatmap')
+    @patch('scripts.module2.plt.figure')
+    @patch('scripts.module2.plt.title')
+    @patch('scripts.module2.plt.show')
     def test_heatmap_chart(self, mock_show, mock_title, mock_figure, mock_heatmap):
         # Create a sample DataFrame
         data = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
